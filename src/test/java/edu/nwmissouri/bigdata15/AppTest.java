@@ -1,4 +1,4 @@
-package edu.nwmissouri.bigdatakafkagroup5;
+package edu.nwmissouri.bigdata15;
 
 import static org.junit.Assert.assertTrue;
 

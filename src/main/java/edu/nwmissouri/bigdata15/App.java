@@ -1,4 +1,4 @@
-package edu.nwmissouri.bigdatakafkagroup5;
+package edu.nwmissouri.bigdata15;
 
 /**
  * Hello world!
