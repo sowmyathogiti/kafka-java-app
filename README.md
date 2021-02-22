@@ -15,7 +15,7 @@
 
 ### Vineetha Yenugula
 
-* My Github Profile: [Vineetha yenugula](https://github.com/vineetha1996)
+* My Github Profile: [Vineetha Yenugula](https://github.com/vineetha1996)
 
 ### Bhaskar Reddy Minupuri
 
