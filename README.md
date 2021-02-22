@@ -11,6 +11,8 @@
 
 ### Rohitha Reddy Meda
 
+* My Github Profile: [Rohitha Reddy Meda](https://github.com/Rohitha12)
+
 ### Vineetha Yenugula
 
 ### Bhaskar Reddy Minupuri
