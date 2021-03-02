@@ -10,9 +10,36 @@
 * My GitHub profile: [Vigneshwar Reddy Lenkala](https://github.com/vigneshwar6666) 
 
 ### Rohitha Reddy Meda
+For my custom producer package I have used java code to identify prime numbers in given set of numbers.
 
-* My Github Profile: [Rohitha Reddy Meda](https://github.com/Rohitha12)
-
+### Setting up the Kafka
+* Open PowerShell in C:\kafka_2.13-2.7.0 folder.
+* Use a different PowerShell window for each process.
+Window 1 - Run Zookeeper Service (keep window open)
+```PowerShell
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+```
+Window 2 - Run Kafka Service (keep window open)
+```PowerShell
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+```
+Window 3 - Create your topic name
+```PowerShell
+.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --create --topic rohitha-kafka
+```
+### Compile and build the jar file
+Open PowerShell as Administrator in your root project folder
+```PowerShell
+mvn clean compile assembly:single
+```
+Start Consumer
+```PowerShell
+edu.nwmissouri.bigdata15
+```
+Start Producer
+```PowerShell
+edu.nwmissouri.bigdata15
+```
 ### Vineetha Yenugula
 
 * My Github Profile: [Vineetha Yenugula](https://github.com/vineetha1996)
