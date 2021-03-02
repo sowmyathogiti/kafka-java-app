@@ -34,11 +34,11 @@ mvn clean compile assembly:single
 ```
 Start Consumer
 ```PowerShell
-edu.nwmissouri.bigdata15
+java -cp target/kafka-api-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdata15
 ```
 Start Producer
 ```PowerShell
-edu.nwmissouri.bigdata15
+java -cp target/kafka-api-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdata15
 ```
 ### Vineetha Yenugula
 
