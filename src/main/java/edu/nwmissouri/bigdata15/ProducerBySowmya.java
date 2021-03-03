@@ -32,7 +32,8 @@ public class ProducerBySowmya {
     KafkaProducer<String, String> producer = new KafkaProducer<>(props);
 
     try {
-      for (long nEvents = 0; nEvents < events; nEvents++) {
+      for (long nEvents = 0; nEvents < events; nEvents++)
+       {
         String key = Long.toString(ufoId++);
         long runtime = new Date().getTime();
         double latitude = (Math.random() * (2 * 85.05112878)) - 85.05112878;
