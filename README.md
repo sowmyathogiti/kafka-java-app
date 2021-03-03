@@ -2,7 +2,19 @@
 ## Team Lead:
 ### Sowmya Thogiti
 
-* My gitHub profile is [Sowmya thogiti](https://github.com/sowmyathogiti)
+* My gitHub profile is [Sowmya thogiti](https://github.com/sowmyathogiti)  
+* I have created kafka java application which generates longitide and latitude values by random number and populate date and time respectively.
+
+#### Steps to Follow to work on kafka java app:
+* Start zookeeper service from C:\kafka_2.13-2.6.0 with command: .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+* Start kafka service from C:\kafka_2.13-2.6.0 with command: .\bin\windows\kafka-server-start.bat .\config\server.properties
+* Clean and compile code using command from the root project folder: mvn clean compile assembly:single
+* Start consumer with command: java -cp target/kafka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdata15.Consumer sowmya group15
+* Start producer with command: java -cp target/kafka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdata15.ProducerBySowmya
+
+#### Reference:
+[https://github.com/denisecase/kafka-api](https://github.com/denisecase/kafka-api)    
+[https://github.com/cloudera/kafka-examples](https://github.com/cloudera/kafka-examples)
 
 ## Team Members:
 ### Vigneshwar Reddy Lenkala
