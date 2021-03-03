@@ -9,6 +9,25 @@
  
 * My GitHub profile: [Vigneshwar Reddy Lenkala](https://github.com/vigneshwar6666) 
 
+### Commands used to get the Random numbers in the range:
+
+* Start the Zookeeper service in the powershell using the command below where you installed Kafka.
+* .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+* Start the Kafka service in the powershell using the command below where you installed kafka.
+* .\bin\windows\kafka-server-start.bat .\config\server.properties
+  
+To compile and build the jar file, run the following commands in the project root folder.
+
+* To compile and assemble the code
+* mvn clean compile assembly:single
+* To start the consumer
+* java -cp target/kafka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdata.group6.Consumer test group1
+* To start the producer
+* java -cp target/kafka-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.bigdata.group6.RohanProducer test
+
+### References
+[https://gist.github.com/kleysonr/d76df87479cc884818ebe870d297d7e5](https://gist.github.com/kleysonr/d76df87479cc884818ebe870d297d7e5)
+  
 ### Rohitha Reddy Meda
 For my custom producer package I have used java code to identify prime numbers in given set of numbers.
 
