@@ -60,25 +60,19 @@ public class ProducerByBhasker {
     
       private static String randomSentence() {
   
-      String[] dates = { "01/06/2020","02/17/2021","08/09/2006","04/20/2010","12/25/2012"};
-      String[] days = { "Mon", "Tue", "Wed", "Thus", "Fri", "Sat", "Sun" };
-      String[] words= { "is", "isn't", "was", "wasn't" };
-     
-    // //   String input_date="01/08/2012";
-    //   SimpleDateFormat format1=new SimpleDateFormat("dd/MM/yyyy");
-    //   Date dt1=format1.parse(dates[0]);
-    //   DateFormat format2=new SimpleDateFormat("EEEE"); 
-    //   String finalDay=format2.format(dt1);
-    //   return dt1;
-  
-      Random r = new Random();
-  
-      int count = 3;
-      int minIndex = 0;
-      int maxIndex = 4;
-  
-      int[] randoms = r.ints(count, minIndex, maxIndex).toArray();
-  
-      return dates[randoms[0]] + " " + words[randoms[1]] + " " + days[randoms[2]] + ".";
+        String[] sports = { "Cricket", "Football", "Hockey", "Racing", "Basketball", "Vollyball", "Badminton", "Tokudubilla" };
+        // String[] players = { "Jerry", "Rohit", "Tom", "William", "Sowmya", "Vignesh", "Bhasker" };
+        String[] assign = { "is assigned", "is not assigned", "can play", "cannot play" };
+        String[] time = { "12pm", "2pm", "10am", "4pm", "5pm", "8am" };
+    
+        Random r = new Random();
+    
+        int count = 3;
+        int minIndex = 0;
+        int maxIndex = 4;
+    
+        int[] randoms = r.ints(count, minIndex, maxIndex).toArray();
+    
+        return sports[randoms[0]] + " " + assign[randoms[1]] + " at " + time[randoms[2]]+ ".";
     }
   }
